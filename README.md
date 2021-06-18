@@ -5,7 +5,7 @@ Full stack website using Umbraco CMS, C# and some dev tools like npm, and Sass.
 ![Image of Tooensure Header website](https://github.com/TooensureMaster/Portfolio/blob/main/assets/img/Wepsite-Header.png)
 
 
-Project will be hosted on my website [Tooensure](https://www.tooensure.com){:target="_blank"}.
+Project will be hosted on my website [Tooensure](https://www.tooensure.com).
 
 Clone the project and explore my code, cutting edge web functionality, link email marketing and much more.
 
