@@ -4,34 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- Style site typography -->
+    <section class="en-tech-site">
+        <header class="header bg-sky">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-light" href="#">Tooensure</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <section class="container">
+                <!-- Hero Image -->
+                <secton class="d-flex justify-content-between align-items-center p-4">
+                    <div class="container">
+                        <h1 class="text-white">Technology made for you</h1>
+                        <p class="text-light">Fast, secure & responsive website development services</p>
+                        <button class="btn btn-primary">Try it free</button>
+                        <button class="btn btn-primary">Projects</button>
+                    </div>
+                    <div class="full-width container">
+                        <img src="/assets/img/Hero-Image.png" width="100%" alt="">
+                    </div>
+                </secton>
+            </section>
 
-    <section>
-        <header>
-            <!-- Hero Image -->
-            <div class="position-relative overflow-hidden text-center" style="background-color: #4400C5;">
-                <div style="background-color: orange; height: 100%;">
-d
-                </div>
-                <div class="col-md-5 p-lg-5 mx-auto my-5">
-                  <h1 class="display-4 fw-normal">Punny headline</h1>
-                  <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-                  <a class="btn btn-outline-secondary" href="#">Coming soon</a>
-                </div>
-                <div class="product-device shadow-sm d-none d-md-block"></div>
-                <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-              </div>
         </header>
         <main>
+            <!-- Feature section -->
+            <section class="container">
+                <article class="feature p-4">
+                    <h2 class="text-center pt-4 pb-3">Manage Website Cantent</h2>
+                    <p class="feature-text text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more.</p>
+                    <img src="/assets/img/main-image-min.jpg" width="100%" alt="">
+                </article>
+            </section>
 
+            <!-- Call to action -->
+            <section class="bg-pink">
+                <section class="container">
+                    <secton class="d-flex justify-content-between align-items-center p-4 call-to-action">
+                        <div class="full-width container image-push-left">
+                            <img src="/assets/img/main-2-image.png" width="100%" alt="" class="">
+                        </div>
+                        <div class="container">
+                            <h2 class="text-dark-50">Perfect Solution for Small Businesses</h1>
+                            <p class="text-dark">Fast, secure & responsive website development services</p>
+                            <button class="btn btn-primary">Try it free</button>
+                            <button class="btn btn-primary">Get a Demo</button>
+                        </div>
+                    </secton>
+                </section>
+            </section>
         </main>
         <footer>
-
+            <!-- Feature section -->
+            <section class="container">
+                <article class="feature p-4">
+                    <h2 class="text-center pt-4 pb-3">Support</h2>
+                    <p class="feature-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe quos quae maiores aut praesentium quas?</p>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center p-5">
+                            <img src="/assets/img/bitcoin-brands.svg" width="100vw" alt="">
+                            <h6>Bitcoin</h6>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center p-5">
+                            <img src="/assets/img/paypal-brands.svg" width="80vw" alt="">
+                            <h6>Paypal</h6>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 text-center p-5">
+                            <img src="/assets/img/github-brands.svg" width="100vw" alt="">
+                            <h6>Contribute</h6>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <!-- Footer Navigation -->
+            <div>
+                <img src="assets/img/Tooensure.svg" alt="" class="mt-3">
+            </div>
+            <div class="d-flex align-content-center justify-content-center flex-wrap container p-5">
+                
+                <ul class="list-group list-group-flush m-lg-5">
+                    <header><h6>Help</h6></header>
+                    <li class="list-group-item">Suppoert</li>
+                    <li class="list-group-item">Knowlegdebase</li>
+                    <li class="list-group-item">Tutorials</li>
+                    <li class="list-group-item">Courses</li>
+                </ul>
+                <ul class="list-group list-group list-group-flush m-lg-5">
+                    <header><h6>Features</h6></header>
+                    <li class="list-group-item">Content Management</li>
+                    <li class="list-group-item">Authentication</li>
+                    <li class="list-group-item">IOS & Andriod Apps</li>
+                    <li class="list-group-item">Custom Design</li>
+                </ul>
+                <ul class="list-group list-group list-group-flush m-lg-5">
+                    <header><h6>Support</h6></header>
+                    <li class="list-group-item">Paypal</li>
+                    <li class="list-group-item">Bitcoin</li>
+                    <li class="list-group-item">Cashapp</li>
+                </ul>
+               
+            </div>
+            <div class="container">
+                <div class="row p-5 text-center">
+                    <div class="col text-gray">
+                        <img src="/assets/img/instagram-brands.svg" width="50vw" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/assets/img/twitter-square-brands.svg" width="50vw" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="/assets/img/facebook-square-brands.svg" width="50vw" alt="">
+                    </div>
+                    <div class="col">
+                        <img style="color:red;" src="/assets/img/youtube-brands.svg" width="50vw" alt="">
+                    </div>
+                </div>
+              </div>
         </footer>
     </section>
     
